@@ -28,7 +28,6 @@ function PortfolioHome() {
           <LoadingScreen key="loading" onComplete={() => setLoading(false)} />
         )}
       </AnimatePresence>
-
       {!loading && (
         <>
           <div className="ambient-bg" />
