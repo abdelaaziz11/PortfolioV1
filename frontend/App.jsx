@@ -27,6 +27,7 @@ function PortfolioHome() {
         {loading && (
           <LoadingScreen key="loading" onComplete={() => setLoading(false)} />
         )}
+        
       </AnimatePresence>
       {!loading && (
         <>
