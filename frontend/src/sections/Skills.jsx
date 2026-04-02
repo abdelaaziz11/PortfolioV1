@@ -37,7 +37,7 @@ function SkillBar({ name, level, inView, delay }) {
 
 export default function Skills() {
   const [ref, inView] = useInView(0.05);
-  const { data, loading, error } = useApi(api.skills.getAll);
+  const { data, error } = useApi(api.skills.getAll);
 
   // Transform flat array from DB into { category: [skill, ...] } map
   const skills = useMemo(() => {

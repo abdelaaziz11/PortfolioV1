@@ -49,9 +49,10 @@ export default function Projects() {
   const projects = data || portfolioData.projects;
 
   // Build unique tech list dynamically from fetched projects
-  const allTechs = useMemo(() => {
-    return ['All', ...new Set(projects.flatMap(p => p.technologies))];
-  }, [projects]);
+  // eslint-disable-next-line no-unused-vars
+  // const allTechs = useMemo(() => {
+  //   return ['All', ...new Set(projects.flatMap(p => p.technologies))];
+  // }, [projects]);
 
   const filtered = filter === 'All'
     ? projects
