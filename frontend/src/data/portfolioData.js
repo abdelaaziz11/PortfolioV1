@@ -12,7 +12,7 @@ export const portfolioData = {
   },
 
   about: {
-    text: "I'm a Full-Stack JavaScript Developer with a deep passion for building modern, performant web applications. My journey began with a curiosity about how things work on the web, which evolved into expertise across the full stack — from crafting pixel-perfect UIs to designing resilient REST APIs and database architectures.",
+    text: "At 21 years old, I am a Full-Stack Software Engineer and graduate of ALX Africa’s rigorous Software Engineering program. I specialize in front-end development, with strong expertise in HTML, CSS, JavaScript, and advanced proficiency in React.js. I have built dynamic, responsive, and user-centered web applications that prioritize performance, scalability, and clean architecture. I completed a Full-Stack Internship at JobInTech in collaboration with YNOV Campus, where I worked on real-world applications using React for the front end, Express.js for the back end, and MongoDB for the database layer. This experience strengthened my understanding of full-stack development workflows, API design, agile teamwork, and delivering production-ready applications. Driven by curiosity and continuous learning, I stay up to date with emerging technologies and best practices. I thrive in collaborative environments where innovation, autonomy, and problem-solving are essential. My goal is to leverage my technical expertise and passion for technology to build impactful, efficient, and scalable digital solutions while continuing to grow as a versatile full-stack engineer.",
     highlights: [
       "3+ years building production MERN applications",
       "Focused on clean code, testing, and scalability",
@@ -24,27 +24,19 @@ export const portfolioData = {
   experience: [
     {
       id: 1,
-      company: "TechNova Solutions",
-      role: "Full-Stack JavaScript Developer",
+      company: "Jobintech - YNOV Campus",
+      role: "Full-stack Developer",
       duration: "Jan 2023 – Present",
-      description: "Lead development of a real-time SaaS platform serving 10k+ users. Architected microservices backend with Node.js/Express and built React dashboards with complex state management.",
-      technologies: ["React", "Node.js", "MongoDB", "Docker", "Redis"],
+      description: "• Full-Stack Development (MERN): Design and development of modern web applications using MongoDB and MySQL for database management (non-relational and relational), Express.js and Node.js for building robust APIs, and React.js for dynamic user interfaces. • Architecture & Security: Implementation of MVC architectures and securing access through JWT authentication and password hashing (Bcrypt). • Quality & Testing: Implementation of unit and integration testing using Jest and Supertest to ensure code reliability and stability. • DevOps & Workflow: Use of Docker for service containerization and version control management with Git/GitHub in an Agile (Scrum) environment.",
+      technologies: ["React", "Node.js", "MongoDB", "Docker", "Express.js", "JWT", "Jest", "Bcrypt", "MySQL"],
     },
     {
       id: 2,
-      company: "WebCraft Agency",
-      role: "Frontend Developer",
-      duration: "Jun 2021 – Dec 2022",
-      description: "Built responsive web applications for 15+ clients across e-commerce, fintech, and media sectors. Implemented performance optimizations reducing load times by 40%.",
-      technologies: ["React", "Redux", "Sass", "Jest", "Webpack"],
-    },
-    {
-      id: 3,
-      company: "Freelance",
-      role: "Junior Web Developer",
-      duration: "2020 – Jun 2021",
-      description: "Delivered full-stack projects for small businesses, including e-commerce sites, booking systems, and custom CMS solutions.",
-      technologies: ["JavaScript", "Express.js", "MySQL", "HTML/CSS"],
+      company: "ALX Africa",
+      role: "Full-Stack Software Engineer",
+      duration: "Aug 2023 – Oct 2024",
+      description: "The program lasted 12 months, with around 80 hours of work each week. In terms of technical skills, I am proficient in Shell scripting, which allows me to automate tasks and manage systems efficiently. Additionally, my expertise in the C language enables me to develop robust and efficient programs. Moreover, I have a strong command of Python and Flask, utilizing it for scripting, web development, and data analysis purposes. as a fullStack software engineer I'm Specialized in front-end technologies, mastering HTML, CSS, and JavaScript. Developed advanced proficiency in React JS, building dynamic, responsive, and user-friendly web applications.",
+      technologies: ["React", "Redux", "Sass", "Jest", "Webpack", "Shell", "C", "Python", "Flask", "Git", "GitHub", "CI/CD", "Agile", "JavaScript", "HTML", "CSS", "MYSQL", "Docker", "Node.js", "Postman", "ES6+", "OOP", "REST APIs", "Linux", "Ubuntu", "unit testing"],
     },
   ],
 
