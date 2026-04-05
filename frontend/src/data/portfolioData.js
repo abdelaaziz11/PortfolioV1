@@ -1,12 +1,12 @@
 export const portfolioData = {
   profile: {
     name: "Abdelaziz Khouda",
-    title: "Full-Stack JavaScript Developer",
+    title: "Full-Stack Software Engineer",
     tagline: "Building scalable web applications with the MERN stack",
     bio: "Passionate about crafting elegant solutions to complex problems. I turn ideas into production-ready applications with clean architecture and modern tooling.",
     avatar: null,
     email: "[EMAIL_ADDRESS]",
-    github: "https://github.com/abdelaziz11",
+    github: "https://github.com/abdelaaziz11",
     linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
     cvUrl: "https://drive.google.com/file/d/1cuhCABGzhUvi3fXPWgNRMk4diijPCRsy/view?usp=sharing",
   },
