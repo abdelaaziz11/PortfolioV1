@@ -2,22 +2,24 @@ export const portfolioData = {
   profile: {
     name: "Abdelaziz Khouda",
     title: "Full-Stack Software Engineer",
-    tagline: "Building scalable web applications with the MERN stack",
-    bio: "Passionate about crafting elegant solutions to complex problems. I turn ideas into production-ready applications with clean architecture and modern tooling.",
+    tagline:
+      "Building scalable and high-performance web applications using the MERN stack.",
+    bio: "Passionate about building scalable and user-centric applications. I transform ideas into clean, efficient, and production-ready solutions using modern technologies and best practices.",
     avatar: null,
-    email: "[EMAIL_ADDRESS]",
+    email: "abdelkhouda055@gmail.com",
     github: "https://github.com/abdelaaziz11",
     linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
-    cvUrl: "https://drive.google.com/file/d/1cuhCABGzhUvi3fXPWgNRMk4diijPCRsy/view?usp=sharing",
+    cvUrl:
+      "https://drive.google.com/file/d/1cuhCABGzhUvi3fXPWgNRMk4diijPCRsy/view?usp=sharing",
   },
 
   about: {
     text: "At 21 years old, I am a Full-Stack Software Engineer and graduate of ALX Africa’s rigorous Software Engineering program. I specialize in front-end development, with strong expertise in HTML, CSS, JavaScript, and advanced proficiency in React.js. I have built dynamic, responsive, and user-centered web applications that prioritize performance, scalability, and clean architecture. I completed a Full-Stack Internship at JobInTech in collaboration with YNOV Campus, where I worked on real-world applications using React for the front end, Express.js for the back end, and MongoDB for the database layer. This experience strengthened my understanding of full-stack development workflows, API design, agile teamwork, and delivering production-ready applications. Driven by curiosity and continuous learning, I stay up to date with emerging technologies and best practices. I thrive in collaborative environments where innovation, autonomy, and problem-solving are essential. My goal is to leverage my technical expertise and passion for technology to build impactful, efficient, and scalable digital solutions while continuing to grow as a versatile full-stack engineer.",
     highlights: [
-      "2+ years Softwer Engineering experience",
-      "Focused on clean code, testing, and scalability",
-      "Open-source contributor and lifelong learner",
-      "Available for freelance and full-time opportunities",
+      "Full-stack software engineer with strong MERN stack expertise",
+      "Focused on clean architecture, performance, and scalability",
+      "Passionate about continuous learning and modern web technologies",
+      "Available for internships, freelance, and full-time opportunities",
     ],
   },
 
@@ -27,16 +29,55 @@ export const portfolioData = {
       company: "Jobintech - YNOV Campus",
       role: "Full-stack Developer",
       duration: "Sep 2023 – Feb 2026",
-      description: "• Full-Stack Development (MERN): Design and development of modern web applications using MongoDB and MySQL for database management (non-relational and relational), Express.js and Node.js for building robust APIs, and React.js for dynamic user interfaces. • Architecture & Security: Implementation of MVC architectures and securing access through JWT authentication and password hashing (Bcrypt). • Quality & Testing: Implementation of unit and integration testing using Jest and Supertest to ensure code reliability and stability. • DevOps & Workflow: Use of Docker for service containerization and version control management with Git/GitHub in an Agile (Scrum) environment.",
-      technologies: ["React", "Node.js", "MongoDB", "Docker", "Express.js", "JWT", "Jest", "Bcrypt", "MySQL"],
+      description:
+        "• Full-Stack Development (MERN): Design and development of modern web applications using MongoDB and MySQL for database management (non-relational and relational), Express.js and Node.js for building robust APIs, and React.js for dynamic user interfaces. • Architecture & Security: Implementation of MVC architectures and securing access through JWT authentication and password hashing (Bcrypt). • Quality & Testing: Implementation of unit and integration testing using Jest and Supertest to ensure code reliability and stability. • DevOps & Workflow: Use of Docker for service containerization and version control management with Git/GitHub in an Agile (Scrum) environment.",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker",
+        "Express.js",
+        "JWT",
+        "Jest",
+        "Bcrypt",
+        "MySQL",
+      ],
     },
     {
       id: 2,
       company: "ALX Africa",
       role: "Full-Stack Software Engineer",
       duration: "Aug 2023 – Oct 2024",
-      description: "The program lasted 12 months, with around 80 hours of work each week. In terms of technical skills, I am proficient in Shell scripting, which allows me to automate tasks and manage systems efficiently. Additionally, my expertise in the C language enables me to develop robust and efficient programs. Moreover, I have a strong command of Python and Flask, utilizing it for scripting, web development, and data analysis purposes. as a fullStack software engineer I'm Specialized in front-end technologies, mastering HTML, CSS, and JavaScript. Developed advanced proficiency in React JS, building dynamic, responsive, and user-friendly web applications.",
-      technologies: ["React", "Redux", "Sass", "Jest", "Webpack", "Shell", "C", "Python", "Flask", "Git", "GitHub", "CI/CD", "Agile", "JavaScript", "HTML", "CSS", "MYSQL", "Docker", "Node.js", "Postman", "ES6+", "OOP", "REST APIs", "Linux", "Ubuntu", "unit testing"],
+      description:
+        "The program lasted 12 months, with around 80 hours of work each week. In terms of technical skills, I am proficient in Shell scripting, which allows me to automate tasks and manage systems efficiently. Additionally, my expertise in the C language enables me to develop robust and efficient programs. Moreover, I have a strong command of Python and Flask, utilizing it for scripting, web development, and data analysis purposes. as a fullStack software engineer I'm Specialized in front-end technologies, mastering HTML, CSS, and JavaScript. Developed advanced proficiency in React JS, building dynamic, responsive, and user-friendly web applications.",
+      technologies: [
+        "React",
+        "Redux",
+        "Sass",
+        "Jest",
+        "Webpack",
+        "Shell",
+        "C",
+        "Python",
+        "Flask",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Agile",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MYSQL",
+        "Docker",
+        "Node.js",
+        "Postman",
+        "ES6+",
+        "OOP",
+        "REST APIs",
+        "Linux",
+        "Ubuntu",
+        "unit testing",
+      ],
     },
   ],
 
@@ -46,14 +87,16 @@ export const portfolioData = {
       school: "Université Ibn Zohr",
       degree: "Bachelor's in Science Mathematics and Physics",
       years: "2022 – Present",
-      description: "SMP - Science Mathematics and Physics, GEER - Génie Energétique et Energies Renouvelables",
+      description:
+        "SMP - Science Mathematics and Physics, GEER - Génie Energétique et Energies Renouvelables",
     },
     {
       id: 2,
       school: "Maroc Ynov Campus",
       degree: "Full-Stack Development",
       years: "Sep 2025 – Feb 2026",
-      description: "Intensive high-level training focused on modern JavaScript technologies and full-stack best practices.",
+      description:
+        "Intensive high-level training focused on modern JavaScript technologies and full-stack best practices.",
     },
   ],
 
@@ -109,9 +152,12 @@ export const portfolioData = {
     {
       id: "1",
       title: "DevCollab Platform",
-      shortDescription: "Real-time collaboration platform for development teams with kanban boards and live code sharing.",
-      fullDescription: "A comprehensive project management and collaboration tool built for software development teams. Features real-time updates via WebSockets, code sharing with syntax highlighting, and an intelligent task assignment system.",
-      problem: "Development teams struggle with fragmented tooling — switching between project management, code review, and communication tools creates context-switching overhead and reduces productivity.",
+      shortDescription:
+        "Real-time collaboration platform for development teams with kanban boards and live code sharing.",
+      fullDescription:
+        "A comprehensive project management and collaboration tool built for software development teams. Features real-time updates via WebSockets, code sharing with syntax highlighting, and an intelligent task assignment system.",
+      problem:
+        "Development teams struggle with fragmented tooling — switching between project management, code review, and communication tools creates context-switching overhead and reduces productivity.",
       features: [
         "Real-time kanban boards with drag-and-drop",
         "Live code editor with syntax highlighting",
@@ -120,9 +166,18 @@ export const portfolioData = {
         "Role-based access control",
         "Activity feed and notifications",
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Redux", "JWT"],
-      architecture: "Microservices architecture with a React SPA frontend, Node.js/Express REST API, MongoDB Atlas for persistence, and Socket.io for real-time bidirectional communication. Deployed on Railway with GitHub CI/CD pipeline.",
-      thumbnail: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Socket.io",
+        "Redux",
+        "JWT",
+      ],
+      architecture:
+        "Microservices architecture with a React SPA frontend, Node.js/Express REST API, MongoDB Atlas for persistence, and Socket.io for real-time bidirectional communication. Deployed on Railway with GitHub CI/CD pipeline.",
+      thumbnail:
+        "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80",
       githubUrl: "https://github.com/alexmercer/devcollab",
       liveUrl: "https://devcollab.vercel.app",
       featured: true,
@@ -130,9 +185,12 @@ export const portfolioData = {
     {
       id: "2",
       title: "ShopFlow E-Commerce",
-      shortDescription: "Full-featured e-commerce platform with Stripe payments, inventory management, and admin dashboard.",
-      fullDescription: "A production-grade e-commerce solution with complete shopping experience from product discovery to checkout. Features a powerful admin dashboard for inventory and order management.",
-      problem: "Small businesses need a customizable e-commerce solution without the overhead and cost of platforms like Shopify, with full control over their data and functionality.",
+      shortDescription:
+        "Full-featured e-commerce platform with Stripe payments, inventory management, and admin dashboard.",
+      fullDescription:
+        "A production-grade e-commerce solution with complete shopping experience from product discovery to checkout. Features a powerful admin dashboard for inventory and order management.",
+      problem:
+        "Small businesses need a customizable e-commerce solution without the overhead and cost of platforms like Shopify, with full control over their data and functionality.",
       features: [
         "Product catalog with advanced filtering",
         "Stripe payment integration",
@@ -141,9 +199,18 @@ export const portfolioData = {
         "Email notifications with Nodemailer",
         "Image upload with Cloudinary",
       ],
-      technologies: ["React", "Express.js", "MongoDB", "Stripe", "Cloudinary", "JWT"],
-      architecture: "Three-tier architecture: React frontend deployed on Vercel, Express.js REST API on Render, MongoDB Atlas as the database. Stripe webhooks handle payment events asynchronously.",
-      thumbnail: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80",
+      technologies: [
+        "React",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "Cloudinary",
+        "JWT",
+      ],
+      architecture:
+        "Three-tier architecture: React frontend deployed on Vercel, Express.js REST API on Render, MongoDB Atlas as the database. Stripe webhooks handle payment events asynchronously.",
+      thumbnail:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80",
       githubUrl: "https://github.com/alexmercer/shopflow",
       liveUrl: "https://shopflow.netlify.app",
       featured: true,
@@ -151,9 +218,12 @@ export const portfolioData = {
     {
       id: "3",
       title: "PulseAPI Gateway",
-      shortDescription: "RESTful API gateway with authentication, rate limiting, and analytics dashboard.",
-      fullDescription: "A developer-focused API management platform that provides authentication middleware, rate limiting, request logging, and a beautiful analytics dashboard for monitoring API health.",
-      problem: "Teams building APIs need a unified gateway for authentication, monitoring, and rate limiting without setting up complex infrastructure.",
+      shortDescription:
+        "RESTful API gateway with authentication, rate limiting, and analytics dashboard.",
+      fullDescription:
+        "A developer-focused API management platform that provides authentication middleware, rate limiting, request logging, and a beautiful analytics dashboard for monitoring API health.",
+      problem:
+        "Teams building APIs need a unified gateway for authentication, monitoring, and rate limiting without setting up complex infrastructure.",
       features: [
         "JWT & API key authentication",
         "Rate limiting per client",
@@ -162,9 +232,18 @@ export const portfolioData = {
         "Webhook management",
         "OpenAPI documentation generation",
       ],
-      technologies: ["Node.js", "Express.js", "MongoDB", "Redis", "JWT", "React"],
-      architecture: "Express.js middleware pipeline with Redis for rate limiting and session storage, MongoDB for persistent data, React dashboard for analytics visualization.",
-      thumbnail: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "JWT",
+        "React",
+      ],
+      architecture:
+        "Express.js middleware pipeline with Redis for rate limiting and session storage, MongoDB for persistent data, React dashboard for analytics visualization.",
+      thumbnail:
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
       githubUrl: "https://github.com/alexmercer/pulseapi",
       liveUrl: "https://pulseapi.render.com",
       featured: false,
@@ -172,9 +251,12 @@ export const portfolioData = {
     {
       id: "4",
       title: "TaskMind AI",
-      shortDescription: "AI-powered task manager that auto-prioritizes and categorizes tasks using NLP.",
-      fullDescription: "An intelligent task management application that uses natural language processing to automatically categorize, prioritize, and schedule tasks based on context and deadlines.",
-      problem: "Traditional task managers require manual organization. TaskMind uses AI to analyze task descriptions and intelligently manage your workload.",
+      shortDescription:
+        "AI-powered task manager that auto-prioritizes and categorizes tasks using NLP.",
+      fullDescription:
+        "An intelligent task management application that uses natural language processing to automatically categorize, prioritize, and schedule tasks based on context and deadlines.",
+      problem:
+        "Traditional task managers require manual organization. TaskMind uses AI to analyze task descriptions and intelligently manage your workload.",
       features: [
         "NLP-based task categorization",
         "Smart deadline suggestions",
@@ -183,9 +265,18 @@ export const portfolioData = {
         "Habit tracking",
         "Weekly productivity reports",
       ],
-      technologies: ["React", "Python", "Node.js", "MongoDB", "OpenAI API", "Chart.js"],
-      architecture: "React frontend communicates with a Node.js orchestration layer that proxies to a Python FastAPI service for AI processing. Results stored in MongoDB.",
-      thumbnail: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80",
+      technologies: [
+        "React",
+        "Python",
+        "Node.js",
+        "MongoDB",
+        "OpenAI API",
+        "Chart.js",
+      ],
+      architecture:
+        "React frontend communicates with a Node.js orchestration layer that proxies to a Python FastAPI service for AI processing. Results stored in MongoDB.",
+      thumbnail:
+        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80",
       githubUrl: "https://github.com/alexmercer/taskmind",
       liveUrl: "https://taskmind.vercel.app",
       featured: false,
