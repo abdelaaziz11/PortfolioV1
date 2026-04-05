@@ -7,14 +7,14 @@ export const portfolioData = {
     avatar: null,
     email: "[EMAIL_ADDRESS]",
     github: "https://github.com/abdelaziz11",
-    linkedin: "https://linkedin.com/in/abdel-khouda",
-    cvUrl: "#",
+    linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
+    cvUrl: "https://drive.google.com/file/d/1cuhCABGzhUvi3fXPWgNRMk4diijPCRsy/view?usp=sharing",
   },
 
   about: {
     text: "At 21 years old, I am a Full-Stack Software Engineer and graduate of ALX Africa’s rigorous Software Engineering program. I specialize in front-end development, with strong expertise in HTML, CSS, JavaScript, and advanced proficiency in React.js. I have built dynamic, responsive, and user-centered web applications that prioritize performance, scalability, and clean architecture. I completed a Full-Stack Internship at JobInTech in collaboration with YNOV Campus, where I worked on real-world applications using React for the front end, Express.js for the back end, and MongoDB for the database layer. This experience strengthened my understanding of full-stack development workflows, API design, agile teamwork, and delivering production-ready applications. Driven by curiosity and continuous learning, I stay up to date with emerging technologies and best practices. I thrive in collaborative environments where innovation, autonomy, and problem-solving are essential. My goal is to leverage my technical expertise and passion for technology to build impactful, efficient, and scalable digital solutions while continuing to grow as a versatile full-stack engineer.",
     highlights: [
-      "3+ years building production MERN applications",
+      "2+ years Softwer Engineering experience",
       "Focused on clean code, testing, and scalability",
       "Open-source contributor and lifelong learner",
       "Available for freelance and full-time opportunities",
@@ -26,7 +26,7 @@ export const portfolioData = {
       id: 1,
       company: "Jobintech - YNOV Campus",
       role: "Full-stack Developer",
-      duration: "Jan 2023 – Present",
+      duration: "Sep 2023 – Feb 2026",
       description: "• Full-Stack Development (MERN): Design and development of modern web applications using MongoDB and MySQL for database management (non-relational and relational), Express.js and Node.js for building robust APIs, and React.js for dynamic user interfaces. • Architecture & Security: Implementation of MVC architectures and securing access through JWT authentication and password hashing (Bcrypt). • Quality & Testing: Implementation of unit and integration testing using Jest and Supertest to ensure code reliability and stability. • DevOps & Workflow: Use of Docker for service containerization and version control management with Git/GitHub in an Agile (Scrum) environment.",
       technologies: ["React", "Node.js", "MongoDB", "Docker", "Express.js", "JWT", "Jest", "Bcrypt", "MySQL"],
     },
@@ -43,17 +43,17 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      school: "École Nationale Supérieure d'Informatique",
-      degree: "Bachelor's in Computer Science",
-      years: "2017 – 2020",
-      description: "Specialized in software engineering, algorithms, databases, and network programming.",
+      school: "Université Ibn Zohr",
+      degree: "Bachelor's in Science Mathematics and Physics",
+      years: "2022 – Present",
+      description: "SMP - Science Mathematics and Physics, GEER - Génie Energétique et Energies Renouvelables",
     },
     {
       id: 2,
-      school: "YouCode Maroc",
-      degree: "Full-Stack Web Development Bootcamp",
-      years: "2020 – 2021",
-      description: "Intensive 12-month program covering modern web technologies, agile practices, and real-world project delivery.",
+      school: "Maroc Ynov Campus",
+      degree: "Full-Stack Development",
+      years: "Sep 2025 – Feb 2026",
+      description: "Intensive high-level training focused on modern JavaScript technologies and full-stack best practices.",
     },
   ],
 
@@ -76,7 +76,7 @@ export const portfolioData = {
       { name: "MongoDB", level: 85 },
       { name: "PostgreSQL", level: 75 },
       { name: "MySQL", level: 78 },
-      { name: "SQLite", level: 70 },
+      { name: "Firebase", level: 70 },
     ],
     DevOps: [
       { name: "Docker", level: 75 },
