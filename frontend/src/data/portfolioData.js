@@ -277,7 +277,7 @@ export const portfolioData = {
       org: "ALX Africa",
       year: "08/2024 – 10/2024",
       skills: ["Professional Development Skills", "Career Readiness", "Communication", "Problem-Solving", "Time Management"],
-      icon: "Node",
+      icon: "PS",
     },
     {
       id: 3,
