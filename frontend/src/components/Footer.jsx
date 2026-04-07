@@ -8,7 +8,7 @@ export default function Footer() {
           <span className="logo-bracket">&lt;</span>AM<span className="logo-bracket">/&gt;</span>
         </div>
         <p className="footer-copy">
-          © {new Date().getFullYear()} Alex Mercer · Built with React & Node.js
+          © {new Date().getFullYear()} Abdelaaziz khouda · Built with React & Node.js
         </p>
         <p className="footer-stack">MERN Stack Portfolio</p>
       </div>
