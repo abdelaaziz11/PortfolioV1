@@ -5,7 +5,7 @@ export const portfolioData = {
     tagline:
       "Building scalable and high-performance web applications using the MERN stack.",
     bio: "Passionate about building scalable and user-centric applications. I transform ideas into clean, efficient, and production-ready solutions using modern technologies and best practices.",
-    avatar: null,
+    avatar: "/images/profile-pic.png",
     email: "abdelkhouda055@gmail.com",
     github: "https://github.com/abdelaaziz11",
     linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
@@ -163,7 +163,7 @@ export const portfolioData = {
         "Follow and unfollow developers",
         "Like and comment on posts",
         "Personalized feed based on following",
-        "Real-time notifications",
+        "Join communities",
         "User authentication and profiles",
       ],
       technologies: [
@@ -219,7 +219,6 @@ export const portfolioData = {
       features: [
         "User registration and authentication",
         "Secure data submission forms",
-        "Admin dashboard for data management",
         "Data visualization and insights",
         "Role-based access control",
         "Responsive and user-friendly interface",
