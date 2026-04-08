@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { FiSun, FiMoon } from 'react-icons/fi';
+import { useTheme } from '../context/ThemeContext';
 import './Navbar.css';
 
 const navLinks = [
@@ -17,6 +19,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState('');
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -70,13 +73,23 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <a
-            href="#contact"
-            className="btn btn-primary navbar-cta"
-            onClick={e => { e.preventDefault(); handleNav('#contact'); }}
-          >
-            Hire Me
-          </a>
+          <div className="navbar-actions" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button
+              className="theme-toggle"
+              onClick={toggleTheme}
+              aria-label="Toggle theme"
+              style={{ background: 'transparent', border: 'none', color: 'var(--text-primary)', cursor: 'pointer', fontSize: '1.25rem', display: 'flex', alignItems: 'center' }}
+            >
+              {theme === 'dark' ? <FiSun /> : <FiMoon />}
+            </button>
+            <a
+              href="#contact"
+              className="btn btn-primary navbar-cta"
+              onClick={e => { e.preventDefault(); handleNav('#contact'); }}
+            >
+              Hire Me
+            </a>
+          </div>
 
           <button
             className={`hamburger ${mobileOpen ? 'open' : ''}`}
