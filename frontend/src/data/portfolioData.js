@@ -86,7 +86,7 @@ export const portfolioData = {
       id: 1,
       school: "Université Ibn Zohr",
       degree: "Bachelor's in Science Mathematics and Physics",
-      years: "2022 – Present",
+      years: "Present",
       description:
         "SMP - Science Mathematics and Physics, GEER - Génie Energétique et Energies Renouvelables",
     },
