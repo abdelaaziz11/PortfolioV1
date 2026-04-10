@@ -1,6 +1,6 @@
 export const portfolioData = {
   profile: {
-    name: "Abdelaziz Khouda",
+    name: "Abdelaaziz Khouda",
     title: "Full-Stack Software Engineer",
     tagline:
       "Building scalable and high-performance web applications using the MERN stack.",
