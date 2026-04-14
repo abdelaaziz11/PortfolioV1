@@ -237,7 +237,7 @@ export const portfolioData = {
       shortDescription:
         "A full-stack e-commerce platform built with the MERN stack.",
       fullDescription:
-        "TNS Shop is a full-stack e-commerce web application built using the MERN stack, designed to provide a seamless online shopping experience. Users can browse products by categories, view detailed product information, add items to their cart, and place orders بسهولة. The platform also includes an administrator dashboard that allows efficient management of products, categories, and customer orders.",
+        "TNS Shop is a full-stack e-commerce web application built using the MERN stack, designed to provide a seamless online shopping experience. Users can browse products by categories, view detailed product information, add items to their cart, and place orders with ease. The platform also includes an administrator dashboard that allows efficient management of products, categories, and customer orders.",
       problem:
         "Small businesses often lack affordable and customizable e-commerce solutions, making it difficult to manage products, track orders, and deliver a smooth online shopping experience.",
       features: [
@@ -257,6 +257,32 @@ export const portfolioData = {
       liveUrl: "https://tnsshop.vercel.app/shop",
       featured: false,
     },
+    {
+      id: "5",
+      title: "Barber Appointment",
+      shortDescription:
+        "A modern web app for booking barber appointments using React and Firebase.",
+      fullDescription:
+        "Barber Appointment is a modern web application that allows users to easily book and manage barber services online. Built with React and powered by Firebase, the app provides real-time data synchronization and secure authentication. Users can sign up, log in, select services, and reserve time slots with ease. The platform ensures a smooth and responsive experience while simplifying appointment management for both clients and barbers.",
+      problem:
+        "Traditional barber booking systems are often manual and inefficient, leading to scheduling conflicts and poor customer experience.",
+      features: [
+        "User authentication with Firebase (signup/login/logout)",
+        "Real-time appointment booking and updates",
+        "Service selection (haircut, beard, etc.)",
+        "Available time slot management",
+        "User dashboard with appointment history",
+        "Responsive and user-friendly interface",
+      ],
+      technologies: ["React", "Firebase", "Firestore", "Firebase Auth"],
+      architecture:
+        "Frontend built with React, connected to Firebase services including Firestore for real-time database and Firebase Authentication for secure user management. The app follows a client-serverless architecture with direct integration between the frontend and Firebase.",
+      thumbnail:
+        "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80",
+      githubUrl: "https://github.com/abdelaaziz11/Barber-appointment",
+      liveUrl: "https://barber-appointment-frontend.vercel.app",
+      featured: true,
+    },
   ],
 
   formations: [
@@ -266,8 +292,8 @@ export const portfolioData = {
       org: "ALX Africa",
       year: "06/2024 – 08/2024",
       skills: ["AI", "leverage AI",
-         "develop essential 21st-century skills", 
-         "AI tools", "productivity", "creativity"],
+        "develop essential 21st-century skills",
+        "AI tools", "productivity", "creativity"],
       icon: "AI",
     },
     {
