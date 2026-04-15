@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="contact-link-label">GitHub</div>
-                  <div className="contact-link-value">@abdelaziz11</div>
+                  <div className="contact-link-value">@abdelaaziz11</div>
                 </div>
               </a>
             </div>
