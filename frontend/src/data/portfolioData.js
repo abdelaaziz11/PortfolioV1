@@ -115,6 +115,7 @@ export const portfolioData = {
     Backend: [
       { name: "Node.js", level: 88 },
       { name: "Express.js", level: 88 },
+      { name: "Flask", level: 80 },
       { name: "REST APIs", level: 90 },
       { name: "JWT Auth", level: 85 },
     ],
