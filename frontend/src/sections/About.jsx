@@ -72,17 +72,17 @@ export default function About() {
             <div className="terminal-body">
               <pre className="terminal-code">
                 {`{
-  "name": "${profileName}",
-  "role": "${profileTitle}",
-  "location": "Marrakesh, MA",
-  "stack": ["React", "Node.js", 
-            "MongoDB", "Express"],
-  "passion": "Building scalable 
-              web applications",
-  "status": "Open to work",
-  "availability": "Immediate",
-  "coffee": true
-}`}
+                    "name": "${profileName}",
+                    "role": "${profileTitle}",
+                    "location": "Marrakesh, MA",
+                    "stack": ["React", "Node.js", 
+                              "MongoDB", "Express"],
+                    "passion": "Building scalable 
+                                web applications",
+                    "status": "Open to work",
+                    "availability": "Immediate",
+                    "coffee": true
+                }`}
               </pre>
             </div>
           </motion.div>

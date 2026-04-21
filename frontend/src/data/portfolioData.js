@@ -108,6 +108,9 @@ export const portfolioData = {
       { name: "JavaScript", level: 92 },
       { name: "React", level: 90 },
       { name: "Redux", level: 80 },
+      { name: "Bootstrap", level: 80 },
+      { name: "Tailwind", level: 80 },
+      { name: "Context API", level: 85 },
     ],
     Backend: [
       { name: "Node.js", level: 88 },
@@ -118,13 +121,17 @@ export const portfolioData = {
     Databases: [
       { name: "MongoDB", level: 85 },
       { name: "PostgreSQL", level: 75 },
-      { name: "MySQL", level: 78 },
-      { name: "Firebase", level: 70 },
+      { name: "MySQL", level: 88 },
+      { name: "Firebase", level: 75 },
+      { name: "Supabase", level: 75 },
     ],
     DevOps: [
       { name: "Docker", level: 75 },
       { name: "CI/CD", level: 70 },
+      { name: "Puppet", level: 80 },
+      { name: "NGINX", level: 80 },
       { name: "Linux", level: 80 },
+      { name: "Ubuntu", level: 80 },
     ],
     Tools: [
       { name: "Git", level: 92 },
