@@ -138,7 +138,7 @@ export const portfolioData = {
       { name: "Git", level: 92 },
       { name: "GitHub", level: 90 },
       { name: "Postman", level: 88 },
-      { name: "Webpack", level: 75 },
+      { name: "Webpack", level: 85 },
       { name: "Jest", level: 80 },
       { name: "Supertest", level: 75 },
     ],
