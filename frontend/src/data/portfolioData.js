@@ -10,7 +10,7 @@ export const portfolioData = {
     github: "https://github.com/abdelaaziz11",
     linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
     cvUrl:
-      "https://drive.google.com/file/d/1cuhCABGzhUvi3fXPWgNRMk4diijPCRsy/view?usp=sharing",
+      "https://drive.google.com/file/d/1qcc-pJ0ZK_UZ8Jy7NPCq6Vuj7qgutRg_/view?usp=sharing",
   },
 
   about: {
