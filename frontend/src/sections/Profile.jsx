@@ -179,7 +179,7 @@ export default function Profile() {
               {[
                 { label: "Projects", value: "20+" },
                 { label: "Experience", value: "3yr" },
-                { label: "Commits", value: "1k+" },
+                { label: "Commits", value: "2k+" },
               ].map(({ label, value }) => (
                 <div key={label} className="stat-item">
                   <div className="stat-value">{value}</div>
