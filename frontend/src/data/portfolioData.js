@@ -108,9 +108,10 @@ export const portfolioData = {
       { name: "JavaScript", level: 92 },
       { name: "React", level: 90 },
       { name: "Redux", level: 80 },
+      { name: "Context API", level: 85 },
+      { name: "Responsive Design", level: 90 },
       { name: "Bootstrap", level: 80 },
       { name: "Tailwind", level: 80 },
-      { name: "Context API", level: 85 },
     ],
     Backend: [
       { name: "Node.js", level: 88 },
