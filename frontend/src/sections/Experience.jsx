@@ -25,11 +25,11 @@ export default function Experience() {
           <h2 className="section-title">Work <span>Experience</span></h2>
         </motion.div>
 
-        {error && (
+        {/* {error && (
           <p style={{ color: 'var(--clr-accent)', textAlign: 'center', marginBottom: '1rem' }}>
             ⚠ Could not load experience from server — showing cached data.
           </p>
-        )}
+        )} */}
 
         <div className="timeline">
           {(loading ? portfolioData.experience : experience).map((job, i) => (

@@ -159,8 +159,8 @@ export default function Profile() {
               <div className="avatar-ring avatar-ring-2" />
                 <div className="avatar-inner">
                   <img
-                    src={profile.avatar}
-                    alt={profile.name}
+                    src="./images/profile-pic.png"
+                    alt="Abdelaaziz Khouda"
                     className="avatar-image"
                   />
                 </div>

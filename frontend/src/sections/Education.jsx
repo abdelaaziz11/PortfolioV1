@@ -24,11 +24,11 @@ export default function Education() {
           <h2 className="section-title">My <span>Education</span></h2>
         </motion.div>
 
-        {error && (
+        {/* {error && (
           <p style={{ color: 'var(--clr-accent)', textAlign: 'center', marginBottom: '1rem' }}>
             ⚠ Could not load education from server — showing cached data.
           </p>
-        )}
+        )} */}
 
         <div className="edu-grid">
           {(loading ? portfolioData.education : education).map((edu, i) => (
