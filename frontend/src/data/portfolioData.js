@@ -14,10 +14,13 @@ export const portfolioData = {
   },
 
   about: {
-    text: "At 21 years old, I am a Full-Stack Software Engineer and graduate of ALX Africa’s rigorous Software Engineering program. I specialize in front-end development, with strong expertise in HTML, CSS, JavaScript, and advanced proficiency in React.js. I have built dynamic, responsive, and user-centered web applications that prioritize performance, scalability, and clean architecture. I completed a Full-Stack Internship at JobInTech in collaboration with YNOV Campus, where I worked on real-world applications using React for the front end, Express.js for the back end, and MongoDB for the database layer. This experience strengthened my understanding of full-stack development workflows, API design, agile teamwork, and delivering production-ready applications. Driven by curiosity and continuous learning, I stay up to date with emerging technologies and best practices. I thrive in collaborative environments where innovation, autonomy, and problem-solving are essential. My goal is to leverage my technical expertise and passion for technology to build impactful, efficient, and scalable digital solutions while continuing to grow as a versatile full-stack engineer.",
+    text: "Full-Stack Software Engineer, 21 years old, graduate of ALX Africa. Passionate about building scalable, efficient, and user-focused web applications.",
     highlights: [
-      "Full-stack software engineer with strong MERN stack expertise",
-      "Focused on clean architecture, performance, and scalability",
+      "Focused on the MERN Stack (MongoDB, Express, React, Node.js)",
+      "Strong foundation in HTML, CSS, JavaScript",
+      "Experience building full-stack, responsive applications",
+      "Worked on real-world projects during internship (JobInTech × YNOV)",
+      "Familiar with API design, agile workflows, and teamwork",
       "Passionate about continuous learning and modern web technologies",
       "Available for internships, freelance, and full-time opportunities",
     ],
